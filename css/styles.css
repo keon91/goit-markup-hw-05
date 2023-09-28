@@ -596,7 +596,14 @@ margin-bottom: 8px;
     align-items: center;
     justify-items: center;
     background-color:#2E2F4266;
+    visibility: hidden;
+    pointer-events: none;
     
+}
+ .is-open {
+opacity: 1;
+visibility: visible;
+pointer-events: auto;
 }
 
 .is-hidden{
