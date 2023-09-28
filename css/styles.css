@@ -587,6 +587,41 @@ margin-bottom: 8px;
     background-color:var(--color-footer-h);             
 }
 
+/*FOOTER SUBSCRIBE*/
+.footer-sub-inner {
+/* display: flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+} */
+.form-sub {
+}
+.label-sub {
+    color: var(--color-brand-second);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing:0.02em;
+}
+.input-email-sub {
+    
+}
+.input-email-btn {
+    color: var(--color-brand-second);
+    background-color: var(--color-brand);
+    border-radius: 4px;
+    border: transparent;
+ 
+}
+.footer-sub-icon {
+fill: var(--color-brand-second);
+
+
+}
+
 
 /*MODAL*/
 .backdrop{
@@ -596,19 +631,22 @@ margin-bottom: 8px;
     align-items: center;
     justify-items: center;
     background-color:#2E2F4266;
-    visibility: hidden;
     pointer-events: none;
+    /* opacity: 0; */
+      /* visibility: hidden; */
+    transition:opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
- .is-open {
-opacity: 1;
-visibility: visible;
-pointer-events: auto;
-}
-
 .is-hidden{
     display:none;
 }
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+
 
 .modal{
     position: relative;
@@ -616,11 +654,18 @@ pointer-events: auto;
     background-color: var(--color-border);
     border-radius: 4px;
     padding: 24px;
+    transform: scale(1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
+.backdrop.is-hidden .modal{
+    transform: scale(0);
+}
 .modal-close{
     position: absolute;
     top: 24px;
     right: 24px;
 }
+
+/*text area  resize none*/
