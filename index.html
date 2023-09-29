@@ -400,10 +400,11 @@
             </div>
 
             <div class="footer-sub-inner">
-              <form class="form-sub">
-                <label class="label-sub">Subscribe
-                  <input class="input-email-sub" type="email" name="footer-email" placeholder="E-mail"/>
-                  <button class="input-email-btn" type="submit">Subscribe<svg class="footer-sub-icon" width="24" height="24"><use href="./images/icons.svg#icon-telegram"></use></svg></button>
+              <form class="sub-form">
+                <p class="sub-text">Subscribe</p>
+                <label class="sub-label">
+                  <input class="sub-input-email" type="email" name="footer-email" placeholder="E-mail"/>
+                  <button class="sub-email-btn" type="submit">Subscribe<svg class="footer-sub-icon" width="24" height="24"><use href="./images/icons.svg#icon-telegram"></use></svg></button>
                 </label>
               </form>
             </div>
@@ -437,8 +438,8 @@
               <textarea id="user-comment" name="user-comment" rows="5" placeholder="Text input"></textarea>
             
 
-            <input type="checkbox" name="answer-agree" value="agree" id="agree" required/>
-           <label for="agree">I accept the terms and conditions of the 
+            <input id="agree"  type="checkbox" name="answer-agree" value="agree" required/>
+            <label for="agree">I accept the terms and conditions of the 
             <a class="link-policy" href="#" target="blank" id="check">Privacy Policy</a>
           </label>
           
