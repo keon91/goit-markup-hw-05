@@ -672,4 +672,35 @@ fill: var(--color-brand-second);
     right: 24px;
 }
 
+
+
+
+
+.backdrop {
+}
+.modal {
+}
+.modal-close {
+}
+.form-callback {
+}
+.label-name {   
+}
+.label-number {
+}
+.label-email {
+}
+.label-comment {
+}
+.text-area {
+resize: none; 
+}
+textarea {
+  resize: none;
+}
+.link-policy {
+}
+.modal-send {
+}
+
 /*text area  resize none*/

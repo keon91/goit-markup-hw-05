@@ -424,26 +424,32 @@
         <h2>Leave your contacts and we will call you back</h2>
 
           <form class="form-callback" >
+            <div>
             <label for="user-name" class="label-name" >Name</label>
               <input id="user-name" type="text" name="user-name"/>
-            
+            </div>
 
+            <div>
             <label for="user-number" class="label-number">Phone</label>
-              <input id="user-number" type="number" name="user-number">
+              <input id="user-number" type="tel" name="user-number">
+              </div>
             
-
+            <div>
             <label for="user-email" class="label-email">Email</label>
               <input id="user-email" type="email" name="user-email">
+            </div>
             
-
+            <div>
             <label for="user-comment" class="label-comment">Comment</label>
-              <textarea id="user-comment" name="user-comment" rows="5" placeholder="Text input"></textarea>
+              <textarea class="text-area" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
+            </div>
             
-
+            <div>
             <input id="agree"  type="checkbox" name="answer-agree" value="agree" required/>
             <label for="agree">I accept the terms and conditions of the 
             <a class="link-policy" href="#" target="blank" id="check">Privacy Policy</a>
-          </label>
+            </label>
+            </div>
           
             <!--div?--><button class="modal-send" type="button">Send</button>
         
