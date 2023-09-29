@@ -403,7 +403,7 @@
               <form class="form-sub">
                 <label class="label-sub">Subscribe
                   <input class="input-email-sub" type="email" name="footer-email" placeholder="E-mail"/>
-                  <button class="input-email-btn" type="submit">Subscribe<svg class="footer-sub-icon" width="24" height="24"><use href="./images/icons.svg#icon-telegram"></svg></button>
+                  <button class="input-email-btn" type="submit">Subscribe<svg class="footer-sub-icon" width="24" height="24"><use href="./images/icons.svg#icon-telegram"></use></svg></button>
                 </label>
               </form>
             </div>
@@ -414,27 +414,37 @@
     </footer>
     <!--MODAL  is-hidden is-open -->
     <div class="backdrop">
-      <div class="modal">
-        <button class="modal-close" type="button">X</button></div>
+
+        <div class="modal">
+        <button class="modal-close" type="button">X</button>
+        </div>
+        <h2>Leave your contacts and we will call you back</h2>
+
           <form class="form-callback" >
-           <label class="label-name" >Name
-             <input type="text" name="user-name"/>
-           </label>
-            <label class="label-number">Phone
-              <input type="number" name="user-number">
-           </label>
-            <label class="label-email">Email
-              <input type="email" name="user-email">
-            </label>
-           <label class="label-comment">Comment
-             <textarea name="user-comment" rows="5" placeholder="Text input"></textarea>
-           </label>
-           <input type="checkbox" name="answer-agree" value="agree" id="agree" required/>
-           <label for="agree">I accept the terms and conditions of the <a class="link-policy" href="#" target="blank">Privacy Policy</a></label>
-         <button class="modal-send" type="button">Send</button></div>
+            <label for="user-name" class="label-name" >Name</label>
+              <input id="user-name" type="text" name="user-name"/>
+            
+
+            <label for="user-number" class="label-number">Phone</label>
+              <input id="user-number" type="number" name="user-number">
+            
+
+            <label for="user-email" class="label-email">Email</label>
+              <input id="user-email" type="email" name="user-email">
+            
+
+            <label for="user-comment" class="label-comment">Comment</label>
+              <textarea id="user-comment" name="user-comment" rows="5" placeholder="Text input"></textarea>
+            
+
+            <input type="checkbox" name="answer-agree" value="agree" id="agree" required/>
+           <label for="agree">I accept the terms and conditions of the 
+            <a class="link-policy" href="#" target="blank" id="check">Privacy Policy</a>
+          </label>
+          
+            <!--div?--><button class="modal-send" type="button">Send</button>
+        
         </form>
       </div>
-
-    </div>
   </body>
 </html>
