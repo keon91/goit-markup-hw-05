@@ -607,14 +607,13 @@ padding-left: 80px;
 }
 
 .sub-actions{display: flex;}
-.sub-label {
+.sub-email {
     display:flex;
     justify-content: center;
     align-items: center;
     gap:24px;
-
-
 }
+
 .sub-input-email {
 border-radius: 4px;
 border: 1px solid var(--color-brand-second);
