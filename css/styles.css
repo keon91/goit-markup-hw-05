@@ -593,7 +593,8 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 gap: 16px;
-padding-left: 80px;}
+padding-left: 80px;
+}
 
 .sub-form {
 }
@@ -604,7 +605,6 @@ padding-left: 80px;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-brand-second);
-
 }
 
 .sub-label {
@@ -619,13 +619,18 @@ padding-left: 80px;}
 border-radius: 4px;
 border: 1px solid var(--color-brand-second);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-background-color: var(--color-modal);
+background-color: transparent;
 color:var(--color-brand-second);   
 font-size: 12px;
 font-weight: 400;
-line-height: 2;
+line-height: 1.5;
 letter-spacing: 0.04em; 
 padding: 8px auto 8px 16px;
+width: 100%;
+max-width: 264px;
+height: 100%;
+max-height: 40px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 .sub-input-email::placeholder{
 color:var(--color-brand-second);  
@@ -633,9 +638,19 @@ color:var(--color-brand-second);
 .sub-email-btn {
     color: var(--color-brand-second);
     background-color: var(--color-brand);
+    min-width: 165px; 
+    height: 40px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:var(--color-brand-second); 
+    cursor: pointer;
+    background-color: var(--color-brand);
+    border: none;
     border-radius: 4px;
-    border: transparent;
- 
 }
 .footer-sub-icon {
 fill: var(--color-brand-second);
