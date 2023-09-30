@@ -608,6 +608,10 @@ gap: 16px;
 }
 
 .sub-label {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 .sub-input-email {
