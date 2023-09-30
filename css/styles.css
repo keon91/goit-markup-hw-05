@@ -599,7 +599,6 @@ padding-left: 80px;
 .sub-form {
 }
 .sub-text{
-    margin-bottom: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
@@ -626,10 +625,11 @@ font-size: 12px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.04em; 
-padding: 8px auto 8px 16px;
+padding-left: 16px;
 width: 264px;
 height: 40px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+margin-right: 24px;
 }
 .sub-input-email::placeholder{
 color:var(--color-brand-second);  
@@ -653,6 +653,7 @@ color:var(--color-brand-second);
 }
 .footer-sub-icon {
 fill: var(--color-brand-second);
+margin-left: 16px;
 
 
 }
