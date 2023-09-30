@@ -651,10 +651,8 @@ color:var(--color-brand-second);
     border-radius: 4px;
 }
 .footer-sub-icon {
-fill: var(--color-brand-second);
-margin-left: 16px;
-
-
+    fill: var(--color-brand-second);
+    margin-left: 16px;
 }
 
 
