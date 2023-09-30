@@ -600,7 +600,7 @@ gap: 16px;
 .sub-text{
     font-style: normal;
     font-weight: 500;
-    margin-bottom:16px;
+    margin-bottom: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-brand-second);
