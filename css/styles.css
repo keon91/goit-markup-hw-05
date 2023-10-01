@@ -719,6 +719,7 @@ color:var(--color-brand-second);
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
 .backdrop.is-hidden .modal{
     transform: scale(0);
@@ -793,10 +794,10 @@ color:var(--color-brand-second);
     margin-bottom: 4px;
 }
 .input-name{
- width:360px;
- height: 40px;
- border-radius: 4px;
- border: 1px solid var(--color-brand);
+    width:360px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--color-brand);
 }
 .label-number {
     display: block;
@@ -808,9 +809,9 @@ color:var(--color-brand-second);
 }
 .input-number{
     width:360px;
- height: 40px;
- border-radius: 4px;
- border: 1px solid var(--color-brand);
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--color-brand);
 
 }
 .label-email {
