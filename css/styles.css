@@ -655,7 +655,7 @@ color:var(--color-brand-second);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sub-email-btn:hover {
-    background-color:var(--color-pressed)  ;
+    background-color:var(--color-pressed);
 }
 .footer-sub-icon {
     fill: var(--color-brand-second);
@@ -736,6 +736,7 @@ color:var(--color-brand-second);
 }
 
 .icon-cross{
+    
     fill:var(--color-modal);
 }
 .icon-cross:hover{
@@ -758,7 +759,7 @@ color:var(--color-brand-second);
 }
 
 
-/**/
+/**/btn
 .backdrop {
 }
 .modal {
@@ -783,7 +784,29 @@ textarea {
 }
 .link-policy {
 }
-.modal-send {
+.btn-send {
+    color: var(--color-brand-second);
+    background-color: var(--color-brand);
+    min-width: 169px; 
+    height: 56px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:var(--color-brand-second); 
+    cursor: pointer;
+    background-color: var(--color-brand);
+    border: none;
+    border-radius: 4px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-send:hover{
+    background-color:var(--color-pressed);
+
 }
 
 /*text area  resize none*/
