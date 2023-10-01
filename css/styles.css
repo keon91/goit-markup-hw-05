@@ -712,6 +712,7 @@ color:var(--color-brand-second);
 
 }
 .modal-title{
+    margin: 72px auto 16px;
     text-align: center;
     color:var(--color-modal);
     max-width: 360px;
@@ -719,7 +720,7 @@ color:var(--color-brand-second);
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
+
 }
 .backdrop.is-hidden .modal{
     transform: scale(0);
@@ -759,12 +760,7 @@ color:var(--color-brand-second);
 .icon-cross:hover{
     fill: var(--color-brand-second);
 }
-.modal-title{
-    position: absolute;
-    top:50%;
-    left:50%;
-    /* transform: translate(-50%, -50%) scale(1); */
-}
+
 .form-callback{
     /* justify-items: center;
     align-items: center; */
