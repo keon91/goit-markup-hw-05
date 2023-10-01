@@ -683,6 +683,7 @@ color:var(--color-brand-second);
 
 
 .modal{
+    /* display: flex; */
     position: absolute;
     top:50%;
     left:50%;
@@ -691,7 +692,6 @@ color:var(--color-brand-second);
     background-color: var(--color-border);
     border-radius: 4px;
     padding: 24px;
-    transform: scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     background-color: var(--color-modal-bgc);
@@ -708,6 +708,21 @@ color:var(--color-brand-second);
     right: 24px;
 }
 
+.modal-title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    /* transform: translate(-50%, -50%) scale(1); */
+}
+.form-callback{
+    /* justify-items: center;
+    align-items: center; */
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) scale(1);
+
+}
 
 
 /**/
@@ -728,10 +743,10 @@ color:var(--color-brand-second);
 .label-comment {
 }
 .text-area {
-resize: none; 
+ resize: none;
 }
 textarea {
-  resize: none;
+
 }
 .link-policy {
 }
