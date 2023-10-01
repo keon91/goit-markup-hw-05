@@ -771,6 +771,10 @@ color:var(--color-brand-second);
 
 }
 
+.box-name {
+    padding-bottom:8px;
+}
+
 
 /**/
 .backdrop {
