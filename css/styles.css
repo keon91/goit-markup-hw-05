@@ -708,9 +708,12 @@ color:var(--color-brand-second);
     background-color: var(--color-modal-bgc);
     min-height: 584px;
     padding: 72px 24px 24px 24px;
+    margin-bottom: 16px;
 
 }
 .modal-title{
+    text-align: center;
+    color:var(--color-modal)
     max-width: 360px;
     width: 100%;
     font-weight: 500;
