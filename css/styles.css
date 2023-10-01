@@ -727,8 +727,8 @@ color:var(--color-brand-second);
 }
 .modal-close{
     display: flex;
-    justify-items: center;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 24px;
     right: 24px;
