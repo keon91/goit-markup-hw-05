@@ -781,13 +781,33 @@ color:var(--color-brand-second);
 }
 .form-callback {
 }
-.label-name {   
+.label-name {  
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:var(--color-border-ben);
+    margin-bottom: 4px;
 }
 .label-number {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:var(--color-border-ben);
+    margin-bottom: 4px;
 }
 .label-email {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:var(--color-border-ben);
+    margin-bottom: 4px;
 }
 .label-comment {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:var(--color-border-ben);
+    margin-bottom: 4px;
 }
 .text-area {
  resize: none;
