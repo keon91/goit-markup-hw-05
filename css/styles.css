@@ -734,6 +734,13 @@ color:var(--color-brand-second);
     background-color: var(--color-pressed);
     border:none;
 }
+
+.icon-cross{
+    fill:var(--color-modal);
+}
+.icon-cross:hover{
+    fill: var(--color-brand-second);
+}
 .modal-title{
     position: absolute;
     top:50%;
