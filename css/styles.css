@@ -782,6 +782,7 @@ color:var(--color-brand-second);
 .form-callback {
 }
 .label-name {  
+    display: block;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -789,6 +790,7 @@ color:var(--color-brand-second);
     margin-bottom: 4px;
 }
 .label-number {
+    display: block;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -796,6 +798,7 @@ color:var(--color-brand-second);
     margin-bottom: 4px;
 }
 .label-email {
+    display: block;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -803,6 +806,7 @@ color:var(--color-brand-second);
     margin-bottom: 4px;
 }
 .label-comment {
+    display: block;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
