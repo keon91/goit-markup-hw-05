@@ -806,6 +806,7 @@ textarea {
 .link-policy {
 }
 .btn-send {
+    display: block;
     color: var(--color-brand-second);
     background-color: var(--color-brand);
     min-width: 169px; 
