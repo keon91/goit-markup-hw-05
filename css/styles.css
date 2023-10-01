@@ -592,7 +592,6 @@ margin-bottom: 8px;
 display: flex;
 justify-content: center;
 flex-direction: column;
-gap: 16px;
 padding-left: 80px;
 }
 
@@ -604,6 +603,7 @@ padding-left: 80px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-brand-second);
+    margin-bottom: 16px;
 }
 
 .sub-actions{display: flex;}
