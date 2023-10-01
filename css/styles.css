@@ -834,6 +834,7 @@ textarea {
 }
 .btn-send {
     display: block;
+    margin:24px auto;
     color: var(--color-brand-second);
     background-color: var(--color-brand);
     min-width: 169px; 
