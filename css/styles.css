@@ -723,7 +723,7 @@ color:var(--color-brand-second);
     display: flex;
     background-color: var(--color-border);
     justify-items: center;
-    align-items: center;
+    align-content: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-color: #0000001A;
     cursor: pointer;
