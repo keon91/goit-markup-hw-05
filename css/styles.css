@@ -709,21 +709,27 @@ color:var(--color-brand-second);
     min-height: 584px;
 
 }
-
+.modal-title{
+    max-width: 360px;
+    width: 100%;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+}
 .backdrop.is-hidden .modal{
     transform: scale(0);
 }
 .modal-close{
+    display: flex;
+    justify-items: center;
+    align-content: center;
     position: absolute;
     top: 24px;
     right: 24px;
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    display: flex;
     background-color: var(--color-border);
-    justify-items: center;
-    align-content: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-color: #0000001A;
     cursor: pointer;
