@@ -701,6 +701,7 @@ color:var(--color-brand-second);
     max-width: 408px;
     width: 100%;
     max-height: 584px;
+    min-height: 584px;
     height: 100%;
     /* overflow-y: auto; */
     /* height: 100%; */
@@ -738,7 +739,8 @@ color:var(--color-brand-second);
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    background-color: var(--color-border);
+    background-color: var(--color-pressed);
+    border: none; 
     border: 1px solid #0000001a;
     border-color: #0000001A;
     cursor: pointer;
@@ -748,13 +750,13 @@ color:var(--color-brand-second);
 .modal-close:hover{
     background-color: var(--color-pressed);
     border:none;
-    fill:var(--color-modal);
+    fill:var(--color-brand-second);
 }
 
 .modal-close:focus{
     background-color: var(--color-pressed);
     border:none;
-    fill:var(--color-modal);
+    fill:var(--color-brand-second);
 }
 
 .icon-cross{
