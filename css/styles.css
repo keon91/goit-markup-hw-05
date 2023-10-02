@@ -929,7 +929,7 @@ letter-spacing: 0.04em;
 .icon-name:hover, .icon-name:focus{
     fill:var(--color-brand)
 }
-.icon-phone{
+/* .icon-phone{
     position: absolute;
     left: 16px;
     top:50%;
@@ -943,7 +943,7 @@ letter-spacing: 0.04em;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
+} */
 .label-privacy {
     display: block;
     font-size: 12px;
