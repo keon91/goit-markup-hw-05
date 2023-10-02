@@ -815,7 +815,7 @@ color:var(--color-brand-second);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 11px 38px;
 }
-.input-name:hover{
+.input-name:hover, .input-name:focus{
     border-color: var(--color-brand);
 }
 .label-number {
@@ -837,7 +837,7 @@ color:var(--color-brand-second);
     padding: 11px 38px;
 }
 
-.input-number:hover{
+.input-number:hover, .input-number:focus{
     border-color: var(--color-brand);
 }
 .label-email {
@@ -860,9 +860,10 @@ color:var(--color-brand-second);
 
 }
 
-.input-email:hover{
+.input-email:hover, .input-email:focus{
     border-color: var(--color-brand);
 }
+
 .label-comment {
     display: block;
     font-size: 12px;
@@ -890,6 +891,21 @@ color:var(--color-brand-second);
 }
 
 textarea {
+
+}
+
+.icon-name{
+    position: absolute;
+    left: 11px;
+    top:50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.icon-phone{
+
+}
+.icon-email{
 
 }
 .user-privacy{
