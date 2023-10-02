@@ -763,6 +763,9 @@ color:var(--color-brand-second);
 .icon-cross:hover{
     fill: var(--color-brand-second);
 }
+.icon-cross:focus{
+    fill:var(--color-brand-second);
+}
 
 .form-callback{
     position: absolute;
