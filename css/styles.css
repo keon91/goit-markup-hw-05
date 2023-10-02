@@ -694,7 +694,7 @@ color:var(--color-brand-second);
 
 
 .modal{
-    /* display: flex; */
+    display: flex;
     position: absolute;
     top:50%;
     left:50%;
@@ -709,20 +709,21 @@ color:var(--color-brand-second);
     background-color: var(--color-modal-bgc);
     min-height: 584px;
     padding: 72px 24px 24px 24px;
-    margin-bottom: 16px;
-    /* overflow: scroll; */
+    
+    
 
 }
 .modal-title{
-    /* margin: 72px auto 16px; */
+    
     text-align: center;
     color:var(--color-modal);
-    max-width: 360px;
-    width: 100%;
+    /* max-width: 360px;
+    width: 100%; */
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em;
-
+   
+  
 }
 .backdrop.is-hidden .modal{
     transform: scale(0);
@@ -764,17 +765,14 @@ color:var(--color-brand-second);
 }
 
 .form-callback{
-    /* justify-items: center;
-    align-items: center; */
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%) scale(1);
-
 }
 
 .box-name {
-    padding-bottom:8px;
+    
 }
 
 
