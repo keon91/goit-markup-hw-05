@@ -700,6 +700,7 @@ color:var(--color-brand-second);
     left:50%;
     transform: translate(-50%, -50%) scale(1);
     width: 408px;
+    /* height: 100%; */
     background-color: var(--color-border);
     border-radius: 4px;
     padding: 24px;
@@ -709,10 +710,11 @@ color:var(--color-brand-second);
     min-height: 584px;
     padding: 72px 24px 24px 24px;
     margin-bottom: 16px;
+    /* overflow: scroll; */
 
 }
 .modal-title{
-    margin: 72px auto 16px;
+    /* margin: 72px auto 16px; */
     text-align: center;
     color:var(--color-modal);
     max-width: 360px;
@@ -794,10 +796,11 @@ color:var(--color-brand-second);
     margin-bottom: 4px;
 }
 .input-name{
-    width:360px;
+    width:360px; /*100% а модал 100% 43:16*/
     height: 40px;
     border-radius: 4px;
     border: 1px solid var(--color-brand);
+    padding: 11px 38px;
 }
 .label-number {
     display: block;
@@ -840,7 +843,7 @@ color:var(--color-brand-second);
 .text-area {
     resize: none;
     width:360px;
-    height: 120px;
+    height: 120px; 
     border-radius: 4px;
     border: 1px solid #2E2F4266;
     flex-shrink: 0;
