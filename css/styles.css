@@ -745,11 +745,13 @@ color:var(--color-brand-second);
 .modal-close:hover{
     background-color: var(--color-pressed);
     border:none;
+    fill:var(--color-modal);
 }
 
 .modal-close:focus{
     background-color: var(--color-pressed);
     border:none;
+    fill:var(--color-modal);
 }
 
 .icon-cross{
