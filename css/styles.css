@@ -798,6 +798,12 @@ color:var(--color-brand-second);
 }
 .modal-close {
 }
+.modal-close:hover {
+    color:var(--color-brand-second);
+}
+.modal-close:focus{
+    color:var(--color-brand-second);
+}
 .form-callback {
 }
 .label-name {  
