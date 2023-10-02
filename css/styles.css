@@ -908,6 +908,14 @@ textarea {
 .icon-email{
 
 }
+.label-privacy {
+    display: block;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:var(--color-border-ben);
+    margin-bottom: 4px;
+}
 .user-privacy{
     color:var(--color-border-ben);
     font-family: Roboto;
