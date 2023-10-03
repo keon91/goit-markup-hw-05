@@ -819,7 +819,10 @@ color:var(--color-brand-second);
 }
 
 .input-name:focus + .icon-name {
-    fill: var(--color-brand);}   
+    fill: var(--color-brand);
+}   
+
+
 
 .inner-comment:hover{
     border-color: var(--color-brand);
@@ -897,6 +900,12 @@ letter-spacing: 0.04em;
 }
 
 .input-agree:checked + .link-policy {
+    background-color: var(--color-pressed);
+    border: none;
+    fill: var(--color-background-second);
+}
+
+.input-agree:(:placeholder-shown):valid + .link-policy{
     background-color: var(--color-pressed);
     border: none;
     fill: var(--color-background-second);
