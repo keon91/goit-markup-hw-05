@@ -855,6 +855,7 @@ letter-spacing: 0.04em;
 }
 .box-check{ 
     display: flex;
+    margin-bottom: 14px;
 }
     /* position: relative;
     display: flex;
@@ -890,6 +891,10 @@ letter-spacing: 0.04em;
 }
 .link-policy {
     color: var(--color-brand);
+}
+
+.icon-check{
+
 }
 .input-agree:checked + .span-policy {
     background-color: var(--color-pressed);
