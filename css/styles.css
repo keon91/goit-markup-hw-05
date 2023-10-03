@@ -853,7 +853,9 @@ letter-spacing: 0.04em;
 .icon-name:hover, .icon-name:focus{
     fill:var(--color-brand)
 }
-.box-check{ }
+.box-check{ 
+    display: flex;
+}
     /* position: relative;
     display: flex;
     align-self: center;
@@ -893,6 +895,7 @@ letter-spacing: 0.04em;
     background-color: var(--color-pressed);
     border: none;
     fill: var(--color-background-second);
+    /* opacity: 1; */
 }
 
 .btn-send {
