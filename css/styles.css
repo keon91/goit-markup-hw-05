@@ -890,8 +890,12 @@ letter-spacing: 0.04em;
     fill: transparent;
     color: var(--color-brand);
 }
-
-.input-agree:checked + .link-policy {
+.input-agree:checked + .label-privacy {
+    background-color: var(--color-pressed);
+    border: none;
+    fill: var(--color-background-second);
+}
+/* .input-agree:checked + .link-policy {
     background-color: var(--color-pressed);
     border: none;
     fill: var(--color-background-second);
@@ -901,7 +905,7 @@ letter-spacing: 0.04em;
     background-color: var(--color-pressed);
     border: none;
     fill: var(--color-background-second);
-}
+} */
 
 .btn-send {
     display: block;
