@@ -756,7 +756,9 @@ color:var(--color-brand-second);
     fill: var(--color-modal);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.icon-cross:hover, .icon-cross:focus {
+fill: var(--color-brand-second);
+}
 
 .form-callback{
     position: absolute;
