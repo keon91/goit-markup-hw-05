@@ -920,13 +920,13 @@ letter-spacing: 0.04em;
     background-color: var(--color-brand);
     min-width: 169px; 
     height: 56px;
-    display: flex; 
-    align-items: center;
-    justify-content: center;
+    /* display: flex;  */
+    /* align-items: center; */
+    /* justify-content: center; */
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color:var(--color-brand-second); 
+    color: var(--color-brand-second); 
     cursor: pointer;
     background-color: var(--color-brand);
     border: none;
