@@ -744,15 +744,17 @@ color:var(--color-brand-second);
 }
 
 .modal-close:hover {
+    fill: var(--color-brand-second);
     background-color: var(--color-pressed);
     border: none;
-    fill: var(--color-brand-second);
+    
 } 
 
 .modal-close:focus {
+    fill: var(--color-brand-second);
     background-color: var(--color-pressed);
     border: none;
-    fill: var(--color-brand-second);
+    
 }
 
 .icon-cross {
