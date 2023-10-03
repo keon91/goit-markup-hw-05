@@ -861,7 +861,11 @@ letter-spacing: 0.04em;
 .icon-name:hover, .icon-name:focus{
     fill:var(--color-brand)
 }
-
+.box-check{ 
+    /* position: relative;
+    display: flex;
+    align-self: center;
+} */
 .label-privacy {
     display: block;
     font-size: 12px;
