@@ -905,7 +905,7 @@ letter-spacing: 0.04em;
     fill: var(--color-background-second);
 }
 
-.input-agree:(:placeholder-shown):valid + .link-policy{
+.input-agree:valid + .link-policy{
     background-color: var(--color-pressed);
     border: none;
     fill: var(--color-background-second);
