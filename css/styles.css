@@ -894,13 +894,14 @@ letter-spacing: 0.04em;
 }
 
 .icon-check{
+    opacity: 0;
 
 }
 .input-agree:checked + .span-policy {
     background-color: var(--color-pressed);
     border: none;
     fill: var(--color-background-second);
-    /* opacity: 1; */
+    opacity: 1; 
 }
 
 .btn-send {
