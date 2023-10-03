@@ -890,7 +890,7 @@ letter-spacing: 0.04em;
     fill: transparent;
     color: var(--color-brand);
 }
-.input-agree:checked + .label-privacy {
+.input-agree:checked + .link-policy {
     background-color: var(--color-pressed);
     border: none;
     fill: var(--color-background-second);
