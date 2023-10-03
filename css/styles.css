@@ -700,11 +700,8 @@ color:var(--color-brand-second);
     transform: translate(-50%, -50%) scale(1);
     max-width: 408px;
     width: 100%;
-    /* max-height: 584px; */
     min-height: 584px;
     height: 100%;
-    /* overflow-y: auto; */
-    /* height: 100%; */
     background-color: var(--color-border);
     border-radius: 4px;
     padding: 24px;
@@ -719,8 +716,6 @@ color:var(--color-brand-second);
     
     text-align: center;
     color:var(--color-modal);
-    /* max-width: 360px;
-    width: 100%; */
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em;
@@ -777,7 +772,7 @@ color:var(--color-brand-second);
     top:50%;
     left:50%;
     transform: translate(-50%, -50%) scale(1);
-    margin-bottom: 8px; /*???   */
+    margin-bottom: 8px; 
 }
 
 .box-name {
@@ -785,8 +780,7 @@ color:var(--color-brand-second);
 }
 
 .box-comment{
-    /* margin-bottom: 24px; */
-    margin-bottom: 16px; /*???   */
+    margin-bottom: 16px; 
 }
 .inner-name{
     position: relative;
@@ -826,17 +820,8 @@ color:var(--color-brand-second);
 }
 
 .input-name:focus + .icon-name {
-    fill:#4D5AE5;   /*change*/
-} 
+    fill: var(--color-brand);}   
 
-/* .label-comment {
-    display: block;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color:#2E2F4266;
-    margin-bottom: 4px;
-} */
 .inner-comment:hover{
     border-color: var(--color-brand);
 } 
@@ -866,8 +851,8 @@ font-weight: 400;
 line-height: 1.17;
 letter-spacing: 0.04em;
 }
-.tex-tarea:focus {
-    border-color: #4D5AE5;
+.text-tarea:focus {
+    border-color: var(--color-brand);
 }
 
 
