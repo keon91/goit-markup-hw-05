@@ -855,7 +855,7 @@ letter-spacing: 0.04em;
 }
 .box-check{ 
     display: flex;
-    margin-bottom: 14px;
+    margin-bottom: 24px;
 }
     /* position: relative;
     display: flex;
