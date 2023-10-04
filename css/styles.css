@@ -744,6 +744,12 @@ color:var(--color-brand-second);
     border: none;
     
 } 
+.modal-close:hover .icon-cross{
+    fill: var(--color-brand-second);
+}
+.modal-close:focus .icon-cross{
+    fill: var(--color-brand-second);
+}
 
 .modal-close:focus {
     fill: var(--color-brand-second);
