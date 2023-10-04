@@ -131,6 +131,11 @@ margin: 0 auto;
     background-color:var(--color-pressed);
 
 }
+.contacts-adress{
+    display: inline-block;
+    margin-left: auto;
+   
+}
 .header-contacts{
     display: flex;
     gap: 40px;
