@@ -865,12 +865,9 @@ letter-spacing: 0.04em;
     display: flex;
     margin-bottom: 24px;
 }
-    /* position: relative;
-    display: flex;
-    align-self: center;
-} */
+  
 .label-privacy {
-    display: block;
+ 
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
