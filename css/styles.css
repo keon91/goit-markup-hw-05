@@ -905,7 +905,7 @@ letter-spacing: 0.04em;
     opacity: 0;
 
 }
-.input-agree:checked + .span-policy {
+.input-agree:checked + .label-privacy > .span-policy {
     background-color: var(--color-pressed);
     border: none;
     fill: var(--color-background-second);
