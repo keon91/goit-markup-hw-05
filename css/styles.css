@@ -896,7 +896,7 @@ letter-spacing: 0.04em;
 }
 
 .icon-check{
-    opacity: 0;
+  
 
 }
 .input-agree:checked + .label-privacy > .span-policy {
