@@ -693,7 +693,7 @@ color:var(--color-brand-second);
     left:50%;
     transform: translate(-50%, -50%) scale(1);
     width: 408px;
-    height: 584px;
+    min-height: 584px;
     background-color: var(--color-border);
     border-radius: 4px;
     padding: 24px;
