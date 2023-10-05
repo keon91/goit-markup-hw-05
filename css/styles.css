@@ -682,7 +682,7 @@ color:var(--color-brand-second);
     
 }
 .is-hidden{
-    display:none;
+    
 }
 .is-open {
     opacity: 1;
@@ -693,15 +693,13 @@ color:var(--color-brand-second);
 
 
 .modal{
-    display: flex;
+    
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%) scale(1);
-    max-width: 408px;
-    width: 100%;
-    min-height: 584px;
-    height: 100%;
+    width: 408px;
+    height: 584px;
     background-color: var(--color-border);
     border-radius: 4px;
     padding: 24px;
@@ -772,11 +770,6 @@ fill: var(--color-brand-second);
 }
 
 .form-callback{
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%) scale(1);
-    margin-bottom: 8px; 
 }
 
 .box-name {
@@ -877,7 +870,6 @@ letter-spacing: 0.04em;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color:var(--color-border-ben);
-    margin-bottom: 24px;
 }
 .user-privacy{
     color:var(--color-border-ben);
@@ -916,7 +908,7 @@ letter-spacing: 0.04em;
 
 .btn-send {
     display: block;
-    margin: 24px auto;
+    margin: 0 auto;
     color: var(--color-brand-second);
     background-color: var(--color-brand);
     min-width: 169px; 
